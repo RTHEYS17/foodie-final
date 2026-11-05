@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Foodie</string>
+
+    <!-- Header subtitles -->
+    <string name="subtitle_menu">Manage every dish on the menu</string>
+    <string name="subtitle_form">Add or update a dish</string>
+    <string name="subtitle_cart">Review your order and check out</string>
+    <string name="subtitle_stats">See the menu at a glance</string>
+
+    <!-- Navigation -->
+    <string name="nav_menu">Menu</string>
+    <string name="nav_add">Add dish</string>
+    <string name="nav_edit">Edit dish</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_stats">Statistics</string>
+
+    <!-- Courses -->
+    <string name="course_starter">Starter</string>
+    <string name="course_main">Main Course</string>
+    <string name="course_dessert">Dessert</string>
+
+    <!-- Menu screen -->
+    <string name="search_hint">Search dishes by name</string>
+    <string name="filter_all">All</string>
+    <string name="clear">Clear</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="menu_count_one">1 dish on the menu</string>
+    <string name="menu_count_many">%1$d dishes on the menu</string>
+    <string name="showing_count">Showing %1$d of %2$d dishes</string>
+    <string name="empty_menu_title">Your menu is empty</string>
+    <string name="empty_menu_text">Add your first dish to start building the menu.</string>
+    <string name="add_dish_action">Add a dish</string>
+    <string name="empty_filter_title">No dishes match</string>
+    <string name="empty_filter_text">Try a different name or clear the search and filter.</string>
+    <string name="clear_filters_action">Clear search and filter</string>
+    <string name="dialog_delete_title">Delete dish</string>
+    <string name="dialog_delete_message">Remove %1$s from the menu?</string>
+    <string name="keep_dish">Keep dish</string>
+
+    <!-- Form screen -->
+    <string name="form_heading_add">Add a new dish</string>
+    <string name="form_heading_edit">Edit dish</string>
+    <string name="form_hint_add">Fill in all four fields to add a dish to the menu.</string>
+    <string name="form_hint_edit">Change any details, then save.</string>
+    <string name="label_dish_name">Dish name</string>
+    <string name="hint_dish_name">e.g. Karoo Lamb Shank</string>
+    <string name="label_description">Description</string>
+    <string name="hint_description">What is in the dish and how is it served?</string>
+    <string name="label_course">Course</string>
+    <string name="label_price">Price (Rand)</string>
+    <string name="hint_price">e.g. 85.50</string>
+    <string name="add_dish">Add dish</string>
+    <string name="save_changes">Save changes</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Validation and feedback -->
+    <string name="error_name_required">Enter a dish name.</string>
+    <string name="error_name_short">Dish name must be at least 2 characters.</string>
+    <string name="error_name_long">Dish name must be 50 characters or fewer.</string>
+    <string name="error_description_required">Enter a short description.</string>
+    <string name="error_description_short">Description must be at least 5 characters.</string>
+    <string name="error_description_long">Description must be 200 characters or fewer.</string>
+    <string name="error_course_required">Choose a course.</string>
+    <string name="error_price_required">Enter a price.</string>
+    <string name="error_price_invalid">Price must be a number, for example 85.50.</string>
+    <string name="error_price_low">Price must be greater than 0.</string>
+    <string name="error_price_high">Price must be R9999 or less.</string>
+    <string name="message_fix_errors">Please fix the highlighted fields and try again.</string>
+    <string name="message_added">%1$s was added to the menu.</string>
+    <string name="message_updated">%1$s was updated.</string>
+    <string name="message_deleted">%1$s was deleted.</string>
+
+    <!-- Cart and checkout -->
+    <string name="add_to_cart">Add to cart</string>
+    <string name="view_cart">View cart</string>
+    <string name="message_added_to_cart">%1$s added to cart.</string>
+    <string name="message_removed_from_cart">%1$s removed from cart.</string>
+    <string name="message_cart_cleared">Cart cleared.</string>
+    <string name="message_max_quantity">You can order up to 99 of each dish.</string>
+    <string name="message_order_placed">Order placed. Total: %1$s</string>
+    <string name="cart_empty_title">Your cart is empty</string>
+    <string name="cart_empty_text">Add dishes from the menu and they will appear here.</string>
+    <string name="browse_menu">Browse the menu</string>
+    <string name="cart_items_label">Items</string>
+    <string name="cart_total_label">Total</string>
+    <string name="checkout">Checkout</string>
+    <string name="clear_cart">Clear cart</string>
+    <string name="price_each">%1$s each</string>
+    <string name="decrease_quantity">Decrease quantity</string>
+    <string name="increase_quantity">Increase quantity</string>
+    <string name="remove_from_cart">Remove from cart</string>
+    <string name="dialog_checkout_title">Confirm your order</string>
+    <string name="receipt_total">Total: %1$s</string>
+    <string name="place_order">Place order</string>
+    <string name="back_to_cart">Back to cart</string>
+
+    <!-- Statistics screen -->
+    <string name="stats_heading">Menu overview</string>
+    <string name="stats_total">Total dishes</string>
+    <string name="stats_average">Average price</string>
+    <string name="stats_per_course">Dishes per course</string>
+    <string name="stats_price_range">Price range</string>
+    <string name="stats_most_expensive">Most expensive</string>
+    <string name="stats_least_expensive">Least expensive</string>
+    <string name="stats_empty_title">No statistics yet</string>
+    <string name="stats_empty_text">Add some dishes and the menu overview will appear here.</string>
+    <string name="stats_dish_with_price">%1$s (%2$s)</string>
+</resources>

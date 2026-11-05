@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#0F5C5C</color>
+    <color name="primary_dark">#0A4343</color>
+    <color name="primary_light">#CDE8E5</color>
+    <color name="header_subtitle">#BFE3DF</color>
+    <color name="background">#F2F5F3</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="ink">#14211C</color>
+    <color name="ink_soft">#52615A</color>
+    <color name="line">#D9E1DC</color>
+    <color name="danger">#B3261E</color>
+    <color name="success">#1B6B3A</color>
+    <color name="course_starter">#3E7C59</color>
+    <color name="course_main">#6B3F69</color>
+    <color name="course_dessert">#C77A1A</color>
+</resources>
